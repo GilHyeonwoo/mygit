@@ -15,12 +15,4 @@ public class calculator {
     int divide(int i, int j){
         return i /j;
     }
-
-    public static void main(String[] args) {
-        calculator cal =new calculator();
-        System.out.println(cal.add(3,2));
-        System.out.println(cal.sub(3,2));
-        System.out.println(cal.multiply(3,2));
-        System.out.println(cal.divide(3,2));
-    }
 }
