@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JUnit5 의존성 추가
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+}
+
+test {
+    useJUnitPlatform()
+}
